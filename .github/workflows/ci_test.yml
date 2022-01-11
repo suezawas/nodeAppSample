@@ -2,7 +2,6 @@ name: Test With Pull Request  - zawasAppCode
 
 on:
   pull_request:
-  workflow_dispatch:
 
 jobs:
   test:
