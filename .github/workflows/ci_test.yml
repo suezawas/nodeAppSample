@@ -3,7 +3,8 @@ name: Test With Pull Request  - zawasAppCode
 on:
   pull_request:
     branches:
-      - **
+      - *
+  workflow_dispatch:
 
 jobs:
   test:
